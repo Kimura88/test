@@ -14,7 +14,7 @@ public class Sample12_19 {
 		array.add(12345);
 
 		System.out.println("拡張for文を利用");
-		for(int num: array) {
+		for(int num : array) {
 			if(num % 2 == 0) {
 				System.out.print(num + " ");
 			}
@@ -42,6 +42,7 @@ public class Sample12_19 {
 				}
 			}
 		}
+		
 		System.out.println("intArray1 : " + intArray1);
 
 		System.out.println("StreamAPIを利用");
